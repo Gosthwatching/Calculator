@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 400px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.calculator{
+    background-color: #858585;
+    border-radius: 10px;
+    height: 630px;
+}
+
+
+.screen{
+    height: 120px;
+    background: #333;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+
+.button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    background: #3b3b3b;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button.button-C {
+    background: #07eafa;
+}
+
+button.button-equal {
+    background: #ff7b00;
+    width: 168px;
+}
+
+.parent {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 8px;
+    justify-content: center;
+}
+
+.div5 {
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row-start: 2;
+}
+
+.div7 {
+    grid-row-start: 2;
+}
+
+.div8 {
+    grid-row-start: 2;
+}
+
+.div9 {
+    grid-row-start: 3;
+}
+
+.div10 {
+    grid-row-start: 3;
+}
+
+.div11 {
+    grid-row-start: 3;
+}
+
+.div12 {
+    grid-row-start: 3;
+}
+
+.div13 {
+    grid-row-start: 4;
+}
+
+.div14 {
+    grid-row-start: 4;
+}
+
+.div15 {
+    grid-row-start: 4;
+}
+
+.div16 {
+    grid-row-start: 4;
+}
+
+.div17 {
+    grid-row-start: 5;
+}
+
+.div18 {
+    grid-row-start: 5;
+}
+
+.div19{
+    grid-column: span 2 / span 2;
+    grid-row-start: 5;
+}
